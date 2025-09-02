@@ -1,0 +1,71 @@
+/* Container */
+body{
+  background-color:aqua;
+}
+div {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Inputs, Select, Textarea */
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #2563eb;
+  box-shadow: 0 0 4px rgba(37,99,235,0.3);
+}
+
+/* Textarea */
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Labels for Radio Buttons */
+label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Paragraph outputs */
+p {
+  margin: 5px 0 15px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* Dropdown select */
+select {
+  background: #fff;
+  cursor: pointer;
+}
